@@ -9,7 +9,7 @@ import { Moon, Sun } from "lucide-react"
 const NAV = [
   { label: "Home",    href: "/",        key: "H" },
   { label: "Work",    href: "/work",    key: "W" },
-  { label: "About",   href: "/about",   key: "A" },
+  { label: "About Me", href: "/about",   key: "A" },
   { label: "Contact", href: "/contact", key: "C" },
 ]
 

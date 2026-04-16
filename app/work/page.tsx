@@ -63,7 +63,7 @@ function ProjectCard({ name, url, github, image, bg }: typeof PROJECTS[0]) {
       style={{
         background: bg,
         aspectRatio: "1 / 1",
-        border: "1px solid rgba(255,255,255,0.07)",
+        border: "none",
         cursor: link ? "pointer" : "default",
       }}
     >

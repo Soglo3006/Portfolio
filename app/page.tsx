@@ -12,7 +12,7 @@ export default function Home() {
           fontFamily: "var(--font-inter-tight), sans-serif",
           fontWeight: 900,
           fontStyle: "italic",
-          fontSize: "clamp(3rem, 9vw, 7rem)",
+          fontSize: "clamp(2.8rem, 7vw, 6rem)",
           lineHeight: 1,
           letterSpacing: "-0.02em",
         }}
@@ -21,7 +21,7 @@ export default function Home() {
       </h1>
 
       {/* Thin divider */}
-      <div style={{ width: "100%", maxWidth: 600, height: 1, background: "var(--border)", margin: "1.5rem 0" }} />
+      <div style={{ width: "100%", maxWidth: 700, height: 1, background: "var(--border)", margin: "1.8rem 0" }} />
 
       {/* Role */}
       <p className="text-base sm:text-lg text-muted-foreground">
@@ -46,10 +46,10 @@ export default function Home() {
       </div>
 
       {/* CTA */}
-      <div className="flex gap-6 mt-10">
+      <div className="flex gap-8 mt-10">
         <Link
           href="/work"
-          className="font-mono text-xs tracking-widest uppercase text-foreground transition-colors duration-200"
+          className="font-mono text-xs tracking-widest uppercase text-muted-foreground hover:text-foreground transition-colors duration-200"
         >
           Work →
         </Link>
